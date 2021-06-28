@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALUD LIVE</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/pqrs.css" type="text/css">
+
+
+
+</head>
+
+<body>
+
+    <!--INICIO HEADER-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blanco">
+            <div class="container">
+                <div class="row">
+                    <a class="navbar-brand" href="https://www.facebook.com/Salud-Live-101994388638326" target="blank">
+                        <img src="img/facebook.png" alt="facebook"></a>
+                    <a class="navbar-brand" href="https://www.instagram.com/salud_live.20/" target="blank"> <img
+                            src="img/instagram.png" alt="instagram"></a>
+                    <a class="navbar-brand" href="https://twitter.com/live_salud" target="blank"> <img src="img/twitter.png" alt="twitter"></a>
+
+
+
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="img/iconi.png" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html"> INICIO <span class="sr-only"></a>
+                            <ul class="submenu">
+                                <li><a href="#quienessomos">¿Quienes Somos?</a></li>
+                                <li><a href="#vision">Visión</a></li>
+                                <li><a href="#mision">Misión</a></li>
+                                <li><a href="#objetivos">Objetivos</a></li>
+                                <li><a href="#guia">Guía de Utilización</a></li>
+                            </ul>
+
+
+                        </li>
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interaccion.html">INTERACCIÓN</a>
+                            <ul class="submenu">
+                                <li><a href="#introdatos">Datos Curiosos</a></li>
+                                <li><a href="#anima">Animaciones</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="pqrs.html" tabindex="-1" aria-disabled="true">PREGUNTAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+   <!--<section id="intropregun">
+        <div class="container">
+            <img src="img/forma5.png" alt="forma">
+            <h2>Preguntas 
+                <br>Frecuentes</h2>
+        </div>
+    </section> -->
+    <main>
+        <h1 class="titulo">Preguntas Frecuentes</h1>
+        <div class="categorias" id="categorias">
+            <div class="categoria" data-categoria="metodos-pago">
+            <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.19 7h2.81v15h-21v-5h-2.81v-15h21v5zm1.81 1h-19v13h19v-13zm-9.5 1c3.036 0 5.5 2.464 5.5 5.5s-2.464 5.5-5.5 5.5-5.5-2.464-5.5-5.5 2.464-5.5 5.5-5.5zm0 1c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 8h-1v-.804c-.767-.16-1.478-.689-1.478-1.704h1.022c0 .591.326.886.978.886.817 0 1.327-.915-.167-1.439-.768-.27-1.68-.676-1.68-1.693 0-.796.573-1.297 1.325-1.448v-.798h1v.806c.704.161 1.313.673 1.313 1.598h-1.018c0-.788-.727-.776-.815-.776-.55 0-.787.291-.787.622 0 .247.134.497.957.768 1.056.344 1.663.845 1.663 1.746 0 .651-.376 1.288-1.313 1.448v.788zm6.19-11v-4h-19v13h1.81v-9h17.19z"/></svg>
+            <p>Métodos de pago</p>
+            </div>
+            <div class="categoria" data-categoria="entregas">
+            <svg viewbox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M7 24h-5v-9h5v1.735c.638-.198 1.322-.495 1.765-.689.642-.28 1.259-.417 1.887-.417 1.214 0 2.205.499 4.303 1.205.64.214 1.076.716 1.175 1.306 1.124-.863 2.92-2.257 2.937-2.27.357-.284.773-.434 1.2-.434.952 0 1.751.763 1.751 1.708 0 .49-.219.977-.627 1.356-1.378 1.28-2.445 2.233-3.387 3.074-.56.501-1.066.952-1.548 1.393-.749.687-1.518 1.006-2.421 1.006-.405 0-.832-.065-1.308-.2-2.773-.783-4.484-1.036-5.727-1.105v1.332zm-1-8h-3v7h3v-7zm1 5.664c2.092.118 4.405.696 5.999 1.147.817.231 1.761.354 2.782-.581 1.279-1.172 2.722-2.413 4.929-4.463.824-.765-.178-1.783-1.022-1.113 0 0-2.961 2.299-3.689 2.843-.379.285-.695.519-1.148.519-.107 0-.223-.013-.349-.042-.655-.151-1.883-.425-2.755-.701-.575-.183-.371-.993.268-.858.447.093 1.594.35 2.201.52 1.017.281 1.276-.867.422-1.152-.562-.19-.537-.198-1.889-.665-1.301-.451-2.214-.753-3.585-.156-.639.278-1.432.616-2.164.814v3.888zm3.79-19.913l3.21-1.751 7 3.86v7.677l-7 3.735-7-3.735v-7.719l3.784-2.064.002-.005.004.002zm2.71 6.015l-5.5-2.864v6.035l5.5 2.935v-6.106zm1 .001v6.105l5.5-2.935v-6l-5.5 2.83zm1.77-2.035l-5.47-2.848-2.202 1.202 5.404 2.813 2.268-1.167zm-4.412-3.425l5.501 2.864 2.042-1.051-5.404-2.979-2.139 1.166z"/></svg>
+            <p>Entregas</p>
+            </div>
+            <div class="categoria" data-categoria="seguridad">
+            <svg  viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"/></svg>
+            <p>Seguridad</p>
+            </div>
+            <div class="categoria" data-categoria="cartilla">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4.706c-2.938-1.83-7.416-2.566-12-2.706v17.714c3.937.12 7.795.681 10.667 1.995.846.388 1.817.388 2.667 0 2.872-1.314 6.729-1.875 10.666-1.995v-17.714c-4.584.14-9.062.876-12 2.706zm-10 13.104v-13.704c5.157.389 7.527 1.463 9 2.334v13.168c-1.525-.546-4.716-1.504-9-1.798zm20 0c-4.283.293-7.475 1.252-9 1.799v-13.171c1.453-.861 3.83-1.942 9-2.332v13.704zm-2-10.214c-2.086.312-4.451 1.023-6 1.672v-1.064c1.668-.622 3.881-1.315 6-1.626v1.018zm0 3.055c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0-2.031c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0 6.093c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0-2.031c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm-16-6.104c2.119.311 4.332 1.004 6 1.626v1.064c-1.549-.649-3.914-1.361-6-1.672v-1.018zm0 5.09c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017zm0-2.031c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.316-6-1.626v1.017zm0 6.093c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017zm0-2.031c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017z"/></svg>
+            <p>Cartilla</p>
+            </div>
+        </div>
+        
+        <div class="preguntas">
+
+            <!--Preguntas Métodos de pago-->
+            <div class="contenedor-preguntas activo" data-categoria="metodos-pago">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Que metodos de pago disponibles tienen? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Transferencia bancaria, por cuenta de ahorros, daviplata, nequi y contraentrega (domicilio).</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Tienen plazo de pago?  <img src="./img/suma.svg" alt="Abrir Respuesta" /></p></p>
+                    <p class="respuesta">No, ya que el pago debe ser inmediato luego de realizar la compra y enviar foto o comprobante del recibo por medio de WhatsApp.</p>
+                </div>
+            </div>
+            <!--Preguntas Entregas-->
+            <div class="contenedor-preguntas" data-categoria="entregas">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Tienen entregas a domicilio? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Si, la cartilla llega hasta su domicilio y un metodo de pago sería contraentrega.</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿En cuanto sale el envio a mi país? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p></p>
+                    <p class="respuesta">Este puede variar según tu localidad puedes confirmar el valor antes de realizar tu pedido para que estés seguro.<p>
+                </div>
+            </div>
+            <!--Preguntas Seguridad-->
+            <div class="contenedor-preguntas" data-categoria="seguridad">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Como puedo saber si son confiables? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Somos una empresa colombiana que piensa en el bienestar de sus clientes y se encarga de brindar el mejor servicio y seguridad para ellos.</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Que pasa con mis datos personales?  <img src="./img/suma.svg" alt="Abrir Respuesta" /></p></p>
+                    <p class="respuesta">Esta empresa maneja una cláusula de privacidad en la cual tus datos personales e información no van a salir de nuestras instalaciones y página web.</p>
+                </div>
+            </div>
+            <!--Preguntas Cartilla-->
+            <div class="contenedor-preguntas" data-categoria="cartilla">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cómo puedo usar los codigos QR? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">La utilización de códigos qr los puedes ver en <a href="index.html"> INICIO> <span class="sr-only"><a href="#guia">Guía de utilización: códigos QR </a>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Habrán actualizaciones en la cartilla? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p></p>
+                    <p class="respuesta">Esperamos que al poder seguir con el proyecto nos permita seguir trabajando más enfermedades y temas. 
+                        <br> Cuéntanos cuáles te gustaría conocer en una próxima edición.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <div class="container">
+ 
+ 
+ 
+        <div class="col-md-6 pane">
+      <div class="col-md-4">
+                <div class="alert alert-light"><h1>Comentarios</h1></div>
+                </div>
+                <div id="result">
+     
+     
+     
+     
+            </div>
+     
+        <div class="col-md-8">
+            <form>
+                <div class="form-group">
+                <label>Nombre</label>
+                <input class="form-control" type="text"  id="name">
+                </div>
+                <div class="form-group">
+                <label>Comentario</label>
+                <textarea id="comment" class="form-control"></textarea></label>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="commentBox();">Enviar</button>
+            </form>
+        </div>
+     
+     
+     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+     <!--COMENTARIOS-->
+        <script src="js/script.js"></script>
+        </div>
+        </div>
+    <!--PREFUNTAS Y RESPUESTAS-->
+    <script src="js/categorias.js"></script>
+    <script src="js/PreguntasFrecuentes.js"></script>
+
+
+    <footer id="registro">
+        Todos los derechos reservados &copy; 2021.<br>
+        saludlive@gmail.com <br>
+        +57 3045681418
+    </footer>
+</body>
+</html>

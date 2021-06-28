@@ -1,0 +1,2209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Kalam', cursive;
+}
+p,button,li{
+
+}
+/*INICIO HEADER*/
+header{
+    width: 100%;
+    position: relative;
+    }
+header .bg-blanco{
+    background: #ffffff;
+    opacity: 0.9;
+}
+
+header .container .row a{
+    padding-bottom: 16px;
+    margin-right: 10px;
+    position: relative;
+    left: -20px;
+}
+
+header nav .container .navbar-collapse{
+
+    justify-content: flex-end;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    color:#21B14B;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+   padding: 20px;
+}
+header .navbar-dark .navbar-nav .nav-link:hover{
+
+    color:#f89b39;
+    border-bottom: 2px solid #f89b39;
+    padding-bottom: 5px
+    
+}
+
+header .text-header{
+    position: absolute;
+    top: 47%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+header .text-header h2 {
+    position: absolute;
+    color:#93c84c;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+
+    font-size: 30px;
+    z-index: 10;
+    padding: 65px 50px 40px 23px;
+}
+   
+header .text-header p{
+    position: absolute;
+    color: #f89b39;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    z-index: 10;
+    padding: 105px 18px 25px 78px;
+
+   }
+header #carouselHeader{
+    position: relative;
+}
+header #carouselHeader::after{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:  #21b14c41;
+  content: "";
+}
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding-top: 20px;
+}
+
+ul.submenu {
+    list-style: none;
+  
+}
+.submenu{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.904);
+    left: 20;
+    margin-left: -50px;
+    padding: 35px 15px 15px;
+    display: none
+}
+.submenu li a{
+    color: #f89b39;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif; ;
+    
+}
+
+.navbar-nav li:hover .submenu{
+    display: block;
+
+}
+
+.forma-inicio img{
+    position: absolute;
+    margin-top: -626px;
+    width: 1178px;
+    margin-left: 171px;
+  
+}
+.forma-inicio .cont-logo img{
+    position: absolute;
+    width: 450px;
+    padding-left: -200px;
+    margin-left: 780px;
+    padding-top: 125px;
+    transition: 0.5s;
+}
+.forma-inicio .cont-logo img:hover{
+   transform: scale(0.8);
+}
+
+
+
+   /*FIN HEADER*/
+
+
+ /*INICIO quienes somos*/
+ #quienessomos{
+    width: 100%;
+    position: relative;
+  
+    
+ }
+ #quienessomos .container{
+    padding: 80px 50px 110px;
+ }
+ #quienessomos .container .row .col-md-6 img{
+   
+    position: absolute;
+    width: 280px;
+    margin-left: 53px;
+    margin-top: 40px;
+    transition: .4s;
+}
+#quienessomos .container .row .col-md-6 img:hover{
+    transform: translateX(20px);
+
+}
+  
+
+ #quienessomos .container .row .col-md-6 h2{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 80px;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+ }
+ 
+ 
+#quienessomos .container .row .col-md-6 p{
+    position: absolute;
+    margin-top: 65px;
+    left: -150px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-right: 115px;
+    padding-left: 10px;
+    transition: .3;
+}
+#quienessomos .container .row .col-md-6 p:hover{
+    transform: scale(1.1);
+}
+/*tarjetas*/
+
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+/*tarjeta ivonne*/
+#quienessomos .tarjetai .cont-text{
+    background-color: #21B14B;
+    text-align: center;
+    padding: 100px 10px 30px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+    margin-top: 26px;
+ 
+}
+#quienessomos .tarjetai .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetai .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   transition: .4s;
+
+}
+#quienessomos .tarjetai .cont-text h5:hover{
+    transform: scale(1.1);
+}
+#quienessomos .tarjetai  .cont-text a{
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 12px;
+      
+ }
+#quienessomos .tarjetai  img{
+       position: absolute;
+        width: 120px;     
+        top: -35px;
+        margin-right: 10px;
+        left: 10px;
+        transition: .3s;
+}
+#quienessomos .tarjetai  img:hover{
+    transform: scale(1.1);
+}
+#quienessomos .tarjetai .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    left: 26px;
+    top: -10px;
+
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+        
+/*tarjeta mafe*/
+#quienessomos .tarjetama .cont-text{
+    background-color:#1883c1;
+    text-align: center;
+    padding: 100px 10px 45px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+ margin-top: 26px;
+ 
+}
+#quienessomos .tarjetama .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetama .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   position: relative;
+   top: 13px;
+   transition: .4s;
+}
+#quienessomos .tarjetama .cont-text h5:hover{
+transform: scale(1.1);
+}
+
+#quienessomos .tarjetama  .cont-text a{
+color: white;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 12px;
+position: relative;
+top: 13px;
+ }
+ #quienessomos .tarjetama  img{
+   position: absolute;
+    width: 120px;     
+    top: -35px;
+    transition: .3s;
+ }
+ #quienessomos .tarjetama  img:hover{
+     transform: scale(1.1);
+
+ }
+ #quienessomos .tarjetama .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    top: -18px;
+
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+   
+    /*tarjeta andres*/
+#quienessomos .tarjetaa .cont-text{
+    background-color:#f89b39;
+    text-align: center;
+    padding: 100px 10px 33px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+ margin-top: 26px;
+ 
+}
+#quienessomos .tarjetaa .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetaa .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   transition: .4s;
+
+}
+#quienessomos .tarjetaa .cont-text h5:hover{
+transform: scale(1.1);
+}
+#quienessomos .tarjetaa .cont-text a{
+color: white;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 12px;
+ }
+ #quienessomos .tarjetaa img{
+   position: absolute;
+    width: 120px;     
+    top: -35px;
+    left: 10px;
+    transition: .3s;
+ }
+ #quienessomos .tarjetaa img:hover{
+    transform: scale(1.1);
+
+ }
+ #quienessomos .tarjetaa .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    left: 26px;
+    top: -8px;
+
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+    
+ /*tarjeta manuel*/
+ #quienessomos .tarjetam .cont-text{
+    background-color:#1fb4e6;
+    text-align: center;
+    padding: 100px 10px 15px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+ margin-top: 26px;
+ 
+}
+#quienessomos .tarjetam .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetam .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   position: relative;
+   top: -5px;
+   transition: .4s;
+}
+#quienessomos .tarjetam .cont-text h5:hover{
+    transform: scale(1.1);
+}
+
+#quienessomos .tarjetam .cont-text a{
+color: white;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 12px;
+position: relative;
+top: -13px;
+ }
+ #quienessomos .tarjetam img{
+   position: absolute;
+    width: 125px;     
+    top: -35px;
+    left: 5px;
+    transition: .3s;
+}
+#quienessomos .tarjetam img:hover{
+transform: scale(1.1);
+}
+#quienessomos .tarjetam .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+
+    
+ /*tarjeta edward*/
+ #quienessomos .tarjetae .cont-text{
+    background-color:#a7c04d;
+    text-align: center;
+    padding: 100px 10px 62px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+ margin-top: 26px;
+ 
+}
+#quienessomos .tarjetae .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetae .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   position: relative;
+   top: 20px;
+   transition: .4s;
+}
+#quienessomos .tarjetae .cont-text h5:hover{
+    transform: scale(1.1);
+}
+
+
+#quienessomos .tarjetae .cont-text a{
+color: white;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 12px;
+position: relative;
+top: 33px;
+ }
+ #quienessomos .tarjetae img{
+   position: absolute;
+    width: 125px;     
+    top: -35px;
+    left: 10px;
+    transition: .3s;
+ }
+ #quienessomos .tarjetae img:hover{
+     transform: scale(1.1);
+ }
+ #quienessomos .tarjetae .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    left: 11px;
+    top: -18px;
+
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+
+
+
+     /*tarjeta royer*/
+ #quienessomos .tarjetar .cont-text{
+    background-color:#f89b39;
+    text-align: center;
+    padding: 100px 10px 32px 10px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: -30px;
+    margin-right: 5px;
+ margin-top: 26px;
+ 
+}
+#quienessomos .tarjetar .cont-text h4{
+    color: white;
+   font-size: 25px;
+ 
+}
+#quienessomos .tarjetar .cont-text h5{
+   font-size: 15px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+transition: .4s;
+}
+#quienessomos .tarjetar .cont-text h5:hover{
+transform: scale(1.1);
+}
+#quienessomos .tarjetar .cont-text a{
+color: white;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 12px;
+position: relative;
+top: 5px;
+ }
+ #quienessomos .tarjetar img{
+    position: absolute;
+    width: 125px;
+    top: -35px;
+    transition: .3s;
+    left: 10px;
+ }
+ #quienessomos .tarjetar img:hover{
+     transform: scale(1.1);
+ }
+#quienessomos .container .figuras img{
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+#quienessomos .tarjetar .cont-text .row.redes .col-md-4 a img{
+    width: 50px;
+    position: absolute;
+    left: 11px;
+    top: -19px;
+
+
+}
+  .row.redes{
+    padding-right: 60px;
+}
+  
+
+
+/*FIN quienes somos*/
+
+/*INICIO Vision*/
+#vision{
+width: 100%;
+position: relative;
+background: #22b4e7;
+}
+
+#vision .container{
+padding: 95px 50px 440px;
+}
+#vision .container .titulo .col-md-12 img{
+    position: absolute;
+    margin-left: 590px;
+    padding-top: 25px;
+    transition: .4s;
+
+}
+#vision .container .titulo .col-md-12 img:hover{
+    transform: scale(1.1);
+}
+
+#vision .container .titulo .col-md-12 h2{
+    position: absolute;
+    font-weight: bold;
+    padding-left: 680px;
+    padding-top: 82px;
+    color: white;
+}
+
+#vision .container .imatexto .col-md-4 img{
+    position: absolute;
+    width: 480px;
+    margin-left: -60px;
+    margin-top: 15px;
+transition: .4s;
+}
+#vision .container .imatexto .col-md-4 img:hover{
+    transform: scaleX(1.1);
+}
+
+
+
+#vision .container .imatexto .col-md-8 p{
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+    font-size: 17px;
+    padding-left: 170px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    transition: .4s;
+}
+#vision .container .imatexto .col-md-8 p:hover{
+    transform: scale(1.1);
+}
+
+#vision .container .imatexto .col-md-8 img{
+    margin-left: 170px;
+    position: absolute;
+    width: 440px;
+    transition: .4s;
+ 
+}
+#vision .container .imatexto .col-md-8 img:hover{
+    transform: scale(1.1);
+}
+
+
+/*FINAL vision*/
+
+/*inicio mision*/
+#mision{
+    width: 100%;
+    position: relative;
+    background:#80bc4e;
+    }
+#mision .container{
+    padding: 95px 50px 150px;
+    }
+#mision .container .titulo .col-md-12 img{
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 25px;
+    transition: .4s;
+       
+}
+#mision .container .titulo .col-md-12 img:hover{
+    transform: translateX(15px);
+
+}
+    
+#mision .container .titulo .col-md-12 h2{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    padding-left: 205px;
+    padding-top: 75px;
+}
+
+#mision .container .imatexto p{
+    color: white;
+    text-align: center;
+    padding-right: 155px;
+    padding-top: 180px;
+    font-size: 17px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    transition: .4s;
+
+}
+#mision .container .imatexto p:hover{
+    transform: scale(1.1);
+
+}
+
+#mision .container .imatexto .col-md-4 img{
+  position: absolute;
+  width: 540px;
+  right: -40px;
+  transition: .4s;
+ 
+}
+#mision .container .imatexto .col-md-4 img:hover{
+    transform: scaleY(1.1);
+}
+
+#mision .container .imatexto  img{
+  
+    position: absolute;
+    width: 460px;
+    margin-left: 65px;
+    transition: .4s;
+}
+#mision .container .imatexto  img:hover{
+    transform: rotate(10deg);
+}
+
+
+
+/*final mision*/
+
+/*inicio objetivos*/
+
+#objetivos{
+
+ width: 100%;
+ position: relative;
+ background: #f89b39;
+}
+    
+#objetivos .container{
+padding: 90px 40px 0px;
+}
+
+#objetivos .row.objetivo1 .col-md-3 img{
+    width: 190px;
+    transition: .4s!important;
+}
+#objetivos .row.objetivo1 .col-md-3 img:hover{
+    transform: scale(1.1)!important;
+}
+#objetivos .row.objetivo1 .col-md-6 p{
+  font-size: 17px;
+  color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+padding-top: 55px;
+position: absolute;
+left: -50px;
+transition: .4s;
+}
+#objetivos .row.objetivo1 .col-md-6 p:hover{
+    transform: translateX(15px);
+
+}
+
+#objetivos .row.objetivo2 .col-md-3 img {
+    width: 180px;
+    padding-top: 20px;
+    position: absolute;
+    left: 5px;
+    transition: .4s;
+}
+#objetivos .row.objetivo2 .col-md-3 img:hover{
+    transform: scale(1.1);
+}
+#objetivos .row.objetivo2 .col-md-6 p{
+    font-size: 17px;
+    color: white;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-top: 80px;
+    position: absolute;
+    left: -52px;
+}
+#objetivos .container .forma7 img{
+    position: relative;
+    margin-top: -258px;
+    width: 600px;
+    right: -604px;
+    height: 500px;
+
+}
+
+#objetivos .container .titulo img{
+    position: absolute;
+    padding-left: 848px;
+    top: 200px;
+    height: 130px;
+    transition: .4s;
+}
+#objetivos .container .titulo img:hover{
+    transform: translateX(15px);
+}
+
+#objetivos .container .titulo h2{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 248px;
+    padding-left: 890px;
+  
+}
+
+
+#objetivos .container .cont-f8{
+    height: 0px;
+}
+#objetivos .container .cont-f8 img{
+  
+    position: relative;
+    top: -500px;
+    left: -190px;
+}
+
+
+     
+/*Inicio guia*/
+
+#guia{
+    width: 100%;
+    position: relative;
+    background:#0d84c0;
+    }
+#guia .container{
+    padding: 95px 50px 390px;
+    }
+
+#guia .container .cont-puntos{
+    position: relative;
+    right: 120px;
+}
+#guia .container .cont-puntos img{
+    margin-bottom: -250px;
+    
+}
+#guia .container .cont-titulo img{
+    width: 300px;
+    position: absolute;
+    top: 410px;
+    margin-left: 365px;
+    transition: .4s;
+}
+#guia .container .cont-titulo img:hover{
+    transform: rotate(300deg);
+}
+#guia .container .cont-manzana img{
+    width: 450px;
+    position: absolute;
+    top: 220px;
+    margin-left: -30px;
+    transition: .4s;
+}
+#guia .container .cont-manzana img:hover{
+    transform: scale(1.2);
+}
+#guia .container .cont-acelga img{
+    width: 450px;
+    position: absolute;
+    top: 70px;
+    margin-left: 370px;
+    transition: .4s;
+}
+#guia .container .cont-acelga img:hover{
+    transform: scale(1.2);
+}
+#guia .container .cont-cebolla img{
+    width: 450px;
+    position: absolute;
+    top: 230px;
+    margin-left: 625px;
+    transition: .4s;
+}
+#guia .container .cont-cebolla img:hover{
+    transform: scale(1.2);
+}
+#guia .container .cont-naranja img{
+    width: 480px;
+    position: absolute;
+    top: 700px;
+    margin-left: 155px;
+    transition: .4s;
+
+}
+#guia .container .cont-naranja img:hover{
+    transform: scale(1.2);
+}
+
+/*fin de guia*/
+footer{
+display: block;
+width: 100%;
+padding: 20px 0px;
+text-align: center;
+background-color:#21B14B;
+color: white;
+bottom: 0;
+left: 0;
+z-index: 1;
+font-size: 13px;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*codigo responsive tablet*/
+@media screen and (max-width:1024px) and (min-width:768px){
+ /*HEADER*/
+header .navbar{
+    width: 56%;
+
+}
+header .container .row{
+    margin-left: 20px;
+
+}
+button.navbar-toggler img{
+    position: relative;
+    width: 50%;
+    
+
+}
+.navbar-nav{
+    position: relative;
+   
+    background-color: white;
+
+}
+button.navbar-toggler{
+    outline: none;
+}
+
+header #carouselHeader{
+    position: relative;
+    width: 100%;
+}
+.carousel-inner{
+    position: relative;
+    height: 720px;
+}
+.w-100{
+width: 0;
+height: 900px;
+}
+img.forma1.aos-init.aos-animate{
+    left: -190px;
+    width: 103%;
+    height: 630px;
+    position: relative;
+  top: -14px;
+}
+.forma-inicio .cont-logo img{
+     position: absolute;
+    left: -400px;
+    width: 45%;
+    margin-top: -580px;
+}
+/*QUIENES SOMOS*/
+#quienessomos .container{
+    padding: 50px 50px 110px;
+    height: 1700px;
+}
+#quienessomos .container .row .col-md-6 img{
+    position: absolute;
+    left: 140px;
+    padding-top: 20px;
+
+}
+#quienessomos .container .figuras img{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 800px;
+
+}
+#quienessomos .container .row .col-md-6 h2{
+    position: absolute;
+    left: 142px;
+    top: 18px;
+
+}
+#quienessomos .container .row .col-md-6 p{
+    position: absolute;
+    text-align: center;
+    padding-top: 175px;
+    left: -280px;
+    right: -45px;
+    margin-left: 30px;
+ 
+
+}
+#quienessomos .row.tarjetas{
+ position: relative;
+ width: 200%;
+ left: 12px;
+
+}
+#quienessomos .container .row.tarjetas {
+    padding: 470px 0px 0px 30px;
+}
+/*tarjeta ivonne*/
+#quienessomos .tarjetai .cont-text{
+ 
+    padding-bottom: 50px;
+}
+#quienessomos .tarjetai img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+    left: 90px;
+}
+
+#quienessomos .tarjetai .cont-text h5{
+
+    font-size: 18px;
+}
+#quienessomos .tarjetai  .cont-text a{
+ 
+  left: 10px;
+    position: relative;
+ }
+#quienessomos .tarjetai .cont-text .row.redes {
+    position: relative;
+    right: 20px;
+}
+
+/*tarjeta mafe*/
+.col-md-2.tarjetama.aos-init.aos-animate{
+    position: relative;
+    left: 20px;
+}
+#quienessomos .tarjetama .cont-text{
+ 
+    padding-bottom: 30px;
+}
+#quienessomos .tarjetama img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+
+#quienessomos .tarjetama .cont-text h5{
+    font-size: 18px;
+    top: -5px;
+}
+#quienessomos .tarjetama  .cont-text a{
+  left: 10px;
+position: relative;
+top: -10px;
+
+ }
+#quienessomos .tarjetama .cont-text .row.redes {
+    position: relative;
+    right: 20px;
+}
+
+
+/*tarjeta andres*/
+.col-md-2.tarjetaa.aos-init.aos-animate{
+    position: relative;
+    top: 360px;
+    left: -400px;
+
+}
+#quienessomos .tarjetaa .cont-text{
+ 
+    padding-bottom: 52px;
+}
+#quienessomos .tarjetaa img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+
+#quienessomos .tarjetaa .cont-text h5{
+    font-size: 18px;
+    top: -5px;
+}
+#quienessomos .tarjetaa  .cont-text a{
+  left: 10px;
+position: relative;
+
+ }
+#quienessomos .tarjetaa .cont-text .row.redes {
+    position: relative;
+    right: 20px;
+}
+
+
+/*tarjeta manuel*/
+.col-md-2.tarjetam.aos-init.aos-animate{
+    position: relative;
+    top: 360px;
+    left: -380px;
+}
+#quienessomos .tarjetam .cont-text{
+ 
+    padding-bottom: 30px;
+}
+#quienessomos .tarjetam img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+
+#quienessomos .tarjetam .cont-text h5{
+    font-size: 18px;
+    top: -5px;
+}
+#quienessomos .tarjetam .cont-text a{
+    left: 10px;
+    position: relative;
+    top: -5px;
+  
+   }
+  #quienessomos .tarjetam .cont-text .row.redes {
+      position: relative;
+      right: 5px;
+  }
+  /*tarjeta edward*/
+  .col-md-2.tarjetae.aos-init.aos-animate{
+    position: relative;
+    top: 740px;
+    left: -805px;
+
+
+  }
+#quienessomos .tarjetae .cont-text{
+ 
+    padding-bottom: 52px;
+}
+#quienessomos .tarjetae img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+
+#quienessomos .tarjetae .cont-text h5{
+    font-size: 18px;
+    top: -5px;
+}
+#quienessomos .tarjetae  .cont-text a{
+    left: 10px;
+    position: relative;
+    top: 0px;
+
+ }
+#quienessomos .tarjetae .cont-text .row.redes {
+    position: relative;
+    right: 7px;
+    top: 5px;
+
+}
+
+/*tarjeta royer*/
+.col-md-2.tarjetar.aos-init.aos-animate{
+    position: relative;
+    top: 740px;
+    left: -785px;
+}
+#quienessomos .tarjetar .cont-text{
+ 
+    padding-bottom: 52px;
+}
+#quienessomos .tarjetar img{
+    left: 23px;
+}
+#quienessomos .container .tarjetas{
+    padding: 300px 0px 0px 30px;
+}
+
+#quienessomos .tarjetar .cont-text h5{
+    font-size: 18px;
+    top: -5px;
+}
+#quienessomos .tarjetar  .cont-text a{
+    left: 10px;
+    position: relative;
+    top: 0px;
+
+ }
+#quienessomos .tarjetar .cont-text .row.redes {
+    position: relative;
+    right: 7px;
+    top: 5px;
+
+}
+
+/*VISION*/
+
+#vision{
+width: 100%;
+}
+#vision .container{
+    padding: 95px 50px 690px;
+}
+#vision .container .titulo .col-md-12 img{
+    left: -420px;
+    top: -30px;
+
+}
+#vision .container .titulo .col-md-12 h2 {
+    left: -420px;
+    top: -30px;
+}
+
+
+#vision .container .imatexto .col-md-4 img{
+    left: 200px;
+    width: 350px;
+    top: 340px;
+
+}
+#vision .container .imatexto .col-md-8 p{
+    position: absolute;
+    text-align: center;
+    margin-right: -550px;
+    left: -275px;
+    top: -20px;
+
+
+}
+#vision .container .imatexto .col-md-8 img{
+    width: 100%;
+    top: -10px;
+    left: -280px;
+}
+
+/*MISION*/
+
+#mision{
+    width: 100%;
+    
+
+ }
+#mision .container{
+    padding: 95px 50px 695px;
+ }
+#mision .container .titulo .col-md-12 img{
+    right: 200px;
+}
+
+#mision .container .titulo .col-md-12 h2{
+    right: 290px;
+}
+
+#mision .container .imatexto p{
+    position: absolute;
+    text-align: center;
+    margin-right: -550px;
+    left: 95px;
+
+    
+}
+
+
+#mision .container .imatexto .col-md-4 img{
+    left: -360px;
+    top: 370px;
+    width: 350px;
+}
+
+
+#mision .container .imatexto  img{
+    left: 110px;
+    top: 100px;
+    width: 435px;
+
+
+
+}
+/*OBJTEIVOS*/
+
+#objetivos{
+    width: 100%;
+ }
+ #objetivos .container {
+    padding: 90px 40px 100px;
+ }
+   
+   #objetivos .row.objetivo1 .col-md-3 img{
+    position: relative; 
+    width: 160px;
+    top: 120px;
+
+   }
+ 
+   #objetivos .row.objetivo1 .col-md-6 p{
+    position: absolute;
+    margin-right: -200px;
+    left: 10px;
+    top: 100px;
+
+   }
+   
+   #objetivos .row.objetivo2 .col-md-3 img {
+    position: absolute;
+   
+    width: 160px;
+    top: 120px;
+
+   }
+ 
+   #objetivos .row.objetivo2 .col-md-6 p{
+    position: absolute;
+    margin-right: -150px;
+    left: 10px;
+    top: 100px;
+   }
+   
+   #objetivos .container .titulo img{
+    position: absolute;
+    margin-left: -650px;
+    top: 65px;
+   }
+ 
+   
+   #objetivos .container .titulo h2{
+    position:absolute;
+    margin-left: -650px;
+    top: 120px;
+   }
+   #objetivos .container .forma7 img{
+    visibility: hidden;
+   }
+   /*GUIA DE INTERACCION*/
+
+
+#guia{
+    width: 100%;
+    position: relative;
+    background:#0d84c0;
+    }
+#guia .container{
+    padding: 95px 50px 250px;
+    }
+
+#guia .container .cont-puntos{
+    position: relative;
+    right: 350px;
+}
+#guia .container .cont-puntos img{
+    margin-bottom: -250px;
+    
+}
+#guia .container .cont-titulo img{
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    margin-left: 185px;
+    transition: .4s;
+}
+
+#guia .container .cont-manzana img{
+    width: 280px;
+    position: absolute;
+    top: 330px;
+    transition: .4s;
+}
+
+#guia .container .cont-acelga img{
+    width: 350px;
+    position: absolute;
+    top: 110px;
+    margin-left: 195px;
+    transition: .4s;
+}
+
+#guia .container .cont-cebolla img{
+    width: 290px;
+    position: absolute;
+    top: 350px;
+    margin-left: 380px;
+    transition: .4s;
+}
+
+#guia .container .cont-naranja img{
+    width: 350px;
+    position: absolute;
+    top: 650px;
+    margin-left: 60px;
+    transition: .4s;
+
+}
+/*footer*/
+footer{
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*codigo responsive smartphone*/
+@media screen and (max-width:667px) and (min-width:375px){
+    /*HEADER*/
+    header .navbar{
+       width: 32%;
+       background-color: #80808017;
+   
+   }
+   
+   header .container .row a{
+       position: relative;
+       width: 40px;
+   }
+   header .container .row{
+       margin-left: 25px;
+   
+   }
+   button.navbar-toggler img{
+       position: relative;
+       width: 43%;
+       top: -3px;
+       left: -15px;
+       
+   
+   }
+   .navbar-nav{
+    position: relative;
+    margin-left: 0px;
+  
+    background-color: #ffffff82;
+   
+   }
+   button.navbar-toggler{
+       outline: none;
+   }
+   
+   header #carouselHeader{
+       position: relative;
+       width: 100%;
+       visibility: hidden;
+   }
+   .carousel-inner{
+       position: relative;
+       height: 720px;
+   }
+   .w-100{
+   width: 0;
+   height: 900px;
+   }
+   img.forma1.aos-init.aos-animate{
+       left: -695px;
+       width: 240%;
+       position: relative;
+       top: 5px;
+   
+   }
+   header .forma-inicio .cont-logo img{
+       position: absolute;
+       left: -745px;
+       width: 80%;
+       margin-top: -620px;
+   }
+   /*QUIENES SOMOS*/
+   #quienessomos .container{
+       padding: 50px 50px 110px;
+       height: 3000px;
+   }
+   #quienessomos .container .row .col-md-6 img{
+       position: absolute;
+       left: -3px;
+       padding-top: -20px;
+       width: 200px;
+   top: -90px;
+   
+   }
+   #quienessomos .container .figuras img{
+       position: absolute;
+       left: -20px;
+       top: -10px;
+   width: 800px;
+   }
+   #quienessomos .container .row .col-md-6 h2{
+       position: absolute;
+       left: -27px;
+       top: -105px;
+       font-size: 25px;
+       text-align: center;
+   
+   
+   }
+   #quienessomos .container .row .col-md-6 p{
+       position: absolute;
+       text-align: center;
+       padding-top: 10px;
+       left: 60px;
+       right: -60px;
+       margin-left: -20px;
+    
+   
+   }
+   /*tarjetas*/
+   
+   #quienessomos .container .tarjetas{
+       padding: 300px 0px 0px 30px;
+   }
+   /*tarjeta ivonne*/
+   #quienessomos .tarjetai .cont-text{
+       background-color: #21B14B;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 250px;
+    
+   }
+   #quienessomos .tarjetai .cont-text h4{
+       color: white;
+      font-size: 25px;
+    
+   }
+   #quienessomos .tarjetai .cont-text h5{
+      font-size: 15px;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      transition: .4s;
+   
+   }
+   
+   #quienessomos .tarjetai  .cont-text a{
+       color: white;
+       font-size: 18px;
+       padding-left: 30px;
+       padding-right: 12px;
+         
+    }
+   #quienessomos .tarjetai  img{
+       position: absolute;
+       width: 110px;
+       top: 200px;
+       transition: .3s;
+       left: 65px;
+   
+   
+   }
+   
+   #quienessomos .tarjetai .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       left: 90px;
+       top: -0px;
+       padding-right: 15px;
+   
+   
+   }
+     .row.redes{
+       padding-right: 60px;
+       position: relative;
+   }
+           
+   /*tarjeta mafe*/
+   #quienessomos .tarjetama .cont-text{
+       background-color:#1883c1;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 100px;
+    
+    
+   }
+   #quienessomos .tarjetama .cont-text h4{
+       top: -20px;
+       color: white;
+       font-size: 25px;
+       position: relative;
+   }
+   #quienessomos .tarjetama .cont-text h5{
+      font-size: 15px;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      position: relative;
+      top: -13px;
+      transition: .4s;
+   }
+   
+   #quienessomos .tarjetama  .cont-text a{
+   color: white;
+   font-size: 18px;
+   padding-left: 25px;
+   padding-right: 12px;
+   position: relative;
+   top: -13px;
+    }
+    #quienessomos .tarjetama  img{
+       position: absolute;
+       width: 110px;
+       top: 20px;
+       transition: .3s;
+       left: 65px;
+    }
+   
+    #quienessomos .tarjetama .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       top: -0px;
+       padding-right: 15px;
+   left: 85%;
+   
+   }
+     .row.redes{
+       padding-right: 60px;
+   }
+      
+       /*tarjeta andres*/
+   #quienessomos .tarjetaa .cont-text{
+       background-color:#f89b39;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 100px;
+    
+   }
+   #quienessomos .tarjetaa .cont-text h4{
+       top: -20px;
+       color: white;
+       font-size: 25px;
+       position: relative;
+    
+   }
+   #quienessomos .tarjetaa .cont-text h5{
+      font-size: 15px;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      transition: .4s;
+   top: -13px;
+   position: relative;
+   }
+   
+   #quienessomos .tarjetaa .cont-text a{
+       color: white;
+       font-size: 18px;
+       padding-left: 25px;
+       padding-right: 12px;
+       position: relative;
+       top: -13px;
+    }
+    #quienessomos .tarjetaa img{
+      position: absolute;
+      width: 110px;   
+       top: 20px;
+       left: 64px;
+       transition: .3s;
+    }
+   
+    #quienessomos .tarjetaa .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       top: -0px;
+       padding-right: 15px;
+       left:30px ;
+   
+   
+   }
+     .row.redes{
+       padding-right: 60px;
+   }
+       
+    /*tarjeta manuel*/
+    #quienessomos .tarjetam .cont-text{
+       background-color:#1fb4e6;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 100px;
+    
+   }
+   #quienessomos .tarjetam .cont-text h4{
+       top: -20px;
+       color: white;
+       font-size: 25px;
+       position: relative;
+    
+   }
+   #quienessomos .tarjetam .cont-text h5{
+       font-size: 15px;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       transition: .4s;
+    top: -13px;
+    position: relative;
+   }
+   
+   
+   #quienessomos .tarjetam .cont-text a{
+       color: white;
+       font-size: 18px;
+       padding-left: 25px;
+       padding-right: 12px;
+       position: relative;
+       top: -13px;
+    }
+    #quienessomos .tarjetam img{
+      position: absolute;
+      width: 110px;     
+       top: 20px;
+       left: 65px;
+       transition: .3s;
+   }
+   
+   #quienessomos .tarjetam .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       top: -0px;
+       padding-right: 15px;
+       left:30px ;
+   }
+     .row.redes{
+       padding-right: 60px;
+   }
+   
+       
+    /*tarjeta edward*/
+    #quienessomos .tarjetae .cont-text{
+       background-color:#a7c04d;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 100px;
+    
+   }
+   #quienessomos .tarjetae .cont-text h4{
+       top: -20px;
+       color: white;
+       font-size: 25px;
+       position: relative;
+    
+    
+   }
+   #quienessomos .tarjetae .cont-text h5{
+       font-size: 15px;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       transition: .4s;
+    top: -13px;
+    position: relative;
+   }
+   
+   
+   
+   #quienessomos .tarjetae .cont-text a{
+       color: white;
+       font-size: 18px;
+       padding-left: 25px;
+       padding-right: 12px;
+       position: relative;
+       top: -13px;
+    }
+    #quienessomos .tarjetae img{
+       position: absolute;
+       width: 110px;     
+        top: 20px;
+        left: 65px;
+        transition: .3s;
+    }
+    
+    #quienessomos .tarjetae .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       top: -0px;
+       padding-right: 15px;
+       left:30px ;
+   
+   
+   }
+     .row.redes{
+       padding-right: 60px;
+   }
+   
+   
+   
+        /*tarjeta royer*/
+    #quienessomos .tarjetar .cont-text{
+       background-color:#f89b39;
+       text-align: center;
+       padding: 100px 10px 30px 10px;
+       border-radius: 0px 0px 50px 50px;
+       margin-left: 0px;
+       margin-right: 34px;
+       margin-top: 100px;
+    
+   }
+   #quienessomos .tarjetar .cont-text h4{
+       top: -20px;
+       color: white;
+       font-size: 25px;
+       position: relative;
+    
+   }
+   #quienessomos .tarjetar .cont-text h5{
+       font-size: 15px;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       transition: .4s;
+    top: -13px;
+    position: relative;
+   }
+   
+   #quienessomos .tarjetar .cont-text a{
+       color: white;
+       font-size: 18px;
+       padding-left: 25px;
+       padding-right: 12px;
+       position: relative;
+       top: -13px;
+    }
+    #quienessomos .tarjetar img{
+       position: absolute;
+       width: 110px;     
+        top: 20px;
+        left: 65px;
+        transition: .3s;
+    }
+   
+   #quienessomos .container .figuras img{
+       position: absolute;
+       left: -20px;
+   }
+   #quienessomos .tarjetar .cont-text .row.redes .col-md-4 a img{
+       width: 55px;
+       position: absolute;
+       top: -0px;
+       padding-right: 15px;
+       left:30px ;
+   
+   
+   }
+     .row.redes{
+       padding-right: 60px;
+   }
+     
+   
+   
+   /*FIN quienes somos*/
+   
+   /*INICIO Vision*/
+   #vision{
+   width: 100%;
+   position: relative;
+   background: #22b4e7;
+   }
+   
+   #vision .container{
+   padding: 95px 50px 640px;
+   }
+   #vision .container .titulo .col-md-12 img{
+       position: absolute;
+       margin-left: 20px;
+       padding-top: -10px;
+       transition: .4s;
+       top: -60px;
+       width: 220px;
+   
+   }
+   #vision .container .titulo .col-md-12 img:hover{
+       transform: scale(1.1);
+   }
+   
+   #vision .container .titulo .col-md-12 h2{
+       position: absolute;
+       font-weight: bold;
+       padding-left: 93px;
+       padding-top: 12px;
+       color: white;
+       font-size: 28px;
+   }
+   
+   #vision .container .imatexto .col-md-4 img{
+       position: absolute;
+       width: 220px;
+       margin-left: 20px;
+       margin-top: 390px;
+       transition: .4s;
+   
+   }
+   #vision .container .imatexto .col-md-4 img:hover{
+       transform: scaleX(1.1);
+   }
+   
+   
+   
+   #vision .container .imatexto .col-md-8 p{
+       position: absolute;
+       text-align: center;
+       color: white;
+       padding-top: 120px;
+       font-size: 17px;
+       padding-left: 90px;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       transition: .4s;
+       left: -60px;
+       right: 35px;
+   
+   }
+   #vision .container .imatexto .col-md-8 p:hover{
+       transform: scale(1.1);
+   }
+   
+   #vision .container .imatexto .col-md-8 img{
+       margin-left: 40px;
+       position: absolute;
+       width: 200px;
+       transition: .4s;
+       top: 400px;
+   
+    
+   }
+   #vision .container .imatexto .col-md-8 img:hover{
+       transform: scale(1.1);
+   }
+   
+   
+   /*FINAL vision*/
+   
+   /*inicio mision*/
+   #mision{
+       width: 100%;
+       position: relative;
+       background:#80bc4e;
+       }
+   #mision .container{
+       padding: 95px 50px 220px;
+       }
+   #mision .container .titulo .col-md-12 img{
+       position: absolute;
+       transition: .4s;
+       width: 350px;
+       left: -88px;
+       top: -50px;
+          
+   }
+   #mision .container .titulo .col-md-12 img:hover{
+       transform: translateX(15px);
+   
+   }
+       
+   #mision .container .titulo .col-md-12 h2{
+       position: absolute;
+       color: white;
+       font-weight: bold;
+       padding-left: 88px;
+       padding-top: 15px;
+       font-size: 28px;
+   
+   }
+   
+   #mision .container .imatexto p{
+       color: white;
+       text-align: center;
+       padding-right: 5px;
+       padding-top: 105px;
+       font-size: 17px;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       transition: .4s;
+       right: 1px;
+       position: relative;
+   
+   
+   }
+   #mision .container .imatexto p:hover{
+       transform: scale(1.1);
+   
+   }
+   
+   #mision .container .imatexto .col-md-4 img{
+       position: absolute;
+       width: 200px;
+       right: 60px;
+       transition: .4s;
+   
+    
+   }
+   #mision .container .imatexto .col-md-4 img:hover{
+       transform: scaleY(1.1);
+   }
+   
+   #mision .container .imatexto  img{
+     
+       position: absolute;
+       width: 0px;
+       margin-left: 65px;
+       transition: .4s;
+   }
+   #mision .container .imatexto  img:hover{
+       transform: rotate(10deg);
+   }
+   
+   
+   
+   /*final mision*/
+   
+   /*inicio objetivos*/
+   
+   #objetivos{
+   
+    width: 100%;
+    position: relative;
+    background: #f89b39;
+   }
+       
+   #objetivos .container{
+   padding: 90px 40px 410px;
+   }
+   
+   #objetivos .row.objetivo1 .col-md-3 img{
+       width: 190px;
+       transition: .4s!important;
+       width: 130px;
+       transition: .4s!important;
+       position: relative;
+       top: 110px;
+       left: 75px;
+   }
+   #objetivos .row.objetivo1 .col-md-3 img:hover{
+       transform: scale(1.1)!important;
+   }
+   #objetivos .row.objetivo1 .col-md-6 p{
+       font-size: 17px;
+       color: white;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       padding-top: 140px;
+       position: absolute;
+       left: 30px;
+       transition: .4s;
+       text-align: center;
+       right: 40px;
+   
+   
+   }
+   #objetivos .row.objetivo1 .col-md-6 p:hover{
+       transform: translateX(15px);
+   
+   }
+   
+   #objetivos .row.objetivo2 .col-md-3 img {
+       width: 125px;
+       padding-top: 330px;
+       position: absolute;
+       left: 83px;
+       transition: .4s;
+   }
+   #objetivos .row.objetivo2 .col-md-3 img:hover{
+       transform: scale(1.1);
+   }
+   #objetivos .row.objetivo2 .col-md-6 p{
+       font-size: 17px;
+       color: white;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       padding-top: 460px;
+       position: absolute;
+       left: 30px;
+       transition: .4s;
+       text-align: center;
+       right: 40px;
+   }
+   #objetivos .container .forma7 img{
+       position: relative;
+       margin-top: -258px;
+       width: 600px;
+       right: -604px;
+       height: 500px;
+   
+   }
+   
+   #objetivos .container .titulo img{
+       position: absolute;
+       padding-left: 40px;
+       top: 50px;
+       height: 115px;
+       transition: .4s;
+   }
+   #objetivos .container .titulo img:hover{
+       transform: translateX(15px);
+   }
+   
+   #objetivos .container .titulo h2{
+       color: white;
+       font-weight: bold;
+       position: absolute;
+       top: 99px;
+       padding-left: 80px;
+       font-size: 28px;
+   
+     
+   }
+   
+   
+   #objetivos .container .cont-f8{
+       height: 0px;
+   }
+   #objetivos .container .cont-f8 img{
+     
+       position: relative;
+       top: -500px;
+       left: -190px;
+   }
+   
+   
+        
+   /*Inicio guia*/
+   
+   #guia{
+       width: 100%;
+       position: relative;
+       background:#0d84c0;
+       }
+   #guia .container{
+       padding: 95px 50px 470px;
+       }
+   
+   #guia .container .cont-puntos{
+       position: relative;
+       right: 120px;
+   }
+   #guia .container .cont-puntos img{
+       margin-bottom: -250px;
+       
+   }
+   #guia .container .cont-titulo img{
+       width: 180px;
+       position: absolute;
+       top: 70px;
+       margin-left: 40px;
+       transition: .4s;
+   
+   }
+   #guia .container .cont-titulo img:hover{
+       transform: rotate(300deg);
+   }
+   #guia .container .cont-manzana img{
+       width: 250px;
+       position: absolute;
+       top: 200px;
+       margin-left: 40px;
+       transition: .4s;
+   }
+   #guia .container .cont-manzana img:hover{
+       transform: scale(1.2);
+   }
+   #guia .container .cont-acelga img{
+       width: 250px;
+       position: absolute;
+       top: 470px;
+       margin-left: 50px;
+       transition: .4s;
+   }
+   #guia .container .cont-acelga img:hover{
+       transform: scale(1.2);
+   }
+   #guia .container .cont-cebolla img{
+       width: 250px;
+       position: absolute;
+       top: 655px;
+       margin-left: -20px;
+       transition: .4s;
+   }
+   #guia .container .cont-cebolla img:hover{
+       transform: scale(1.2);
+   }
+   #guia .container .cont-naranja img{
+       width: 270px;
+       position: absolute;
+       top: 920px;
+       margin-left: -70px;
+       transition: .4s;
+   
+   }
+   #guia .container .cont-naranja img:hover{
+       transform: scale(1.2);
+   }
+   
+   /*fin de guia*/
+   footer{
+   display: block;
+   width: 100%;
+   padding: 20px 0px;
+   text-align: center;
+   background-color:#21B14B;
+   color: white;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   font-size: 13px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+   padding-right: 10px;
+   }
+   
+   
+   
+   
+   
+   
+   }
+
+    
+
+   
+
+

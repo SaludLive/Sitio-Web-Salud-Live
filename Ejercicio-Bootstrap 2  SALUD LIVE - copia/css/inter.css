@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Kalam', cursive;
+}
+p,button,li{
+
+}
+/*INICIO HEADER*/
+header{
+    width: 100%;
+    position: relative;
+    }
+header .bg-blanco{
+    background: #f8f8f8f6;
+    opacity: 0.9;
+}
+
+header .container .row a{
+    padding-bottom: 16px;
+    margin-right: 10px;
+    position: relative;
+    left: -20px;
+}
+
+header nav .container .navbar-collapse{
+
+    justify-content: flex-end;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    color:#21B14B;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+   padding: 20px;
+}
+header .navbar-dark .navbar-nav .nav-link:hover{
+
+    color:#f89b39;
+    border-bottom: 2px solid #f89b39;
+    padding-bottom: 5px
+    
+}
+body{
+    background: url(../img/hoja.png);
+}
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding-top: 20px;
+}
+
+ul.submenu {
+    list-style: none;
+  
+}
+.submenu{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.925);
+    left: 20;
+    margin-left: -50px;
+    padding: 35px 15px 15px;
+    display: none
+}
+.submenu li a{
+    color: #f89b39;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif; 
+    
+}
+
+.navbar-nav li:hover .submenu{
+    display: block;
+
+}
+#datos .cont-tittle img{
+    width: 26px;
+    display: inline-block;
+    margin-top: -12px;
+
+}
+
+/*intro datos*/
+
+#introdatos{
+    width: 100%;
+    position: relative;
+    
+}
+
+#introdatos .container{
+    padding: 160px;
+    margin-bottom: -50px;
+}
+
+#introdatos .container h2{
+    position: absolute;
+    margin-left: 320px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    top: 230px;
+
+
+}
+#introdatos .container img{
+    
+    position: relative;
+    width: 380px;
+    margin-left: 250px;
+    bottom: -20px;
+    transition: .2s;
+
+}
+
+#introdatos .container img:hover{
+    transform: translateX(10px);
+
+}
+#introdatos .container .cont-texto img {
+    position: relative;
+    width: 500px;
+    left: -100px;
+    top: 40px;
+}
+/*Datos Curiosos*/
+
+#datos .row{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    margin-left: 5px;
+    bottom: 100px;
+}
+
+/*1*/
+#datos .row .item-services1{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+#datos .row .item-services1:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+#datos .row .item-services1:hover p{
+    bottom: 20px;
+}
+#datos .row .item-services1 img{
+    max-width: 100%;
+}
+#datos .row .item-services1 p{
+    position: absolute;
+    bottom: -210px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+#datos .row .item-services1 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #22b2e7ea;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*2*/
+#datos .row .item-services2{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services2:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services2:hover p{
+    bottom: 80px;
+}
+
+#datos .row .item-services2 img{
+    max-width: 100%;
+}
+#datos .row .item-services2 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services2 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #22b2e7ea;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*3*/
+#datos .row .item-services3{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services3:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services3:hover p{
+    bottom: 50px;
+}
+
+#datos .row .item-services3 img{
+    max-width: 100%;
+}
+#datos .row .item-services3 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services3 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #22b2e7ea;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*4 */ 
+#datos .row .item-services4{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services4:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services4:hover p{
+    bottom: 80px;
+}
+
+#datos .row .item-services4 img{
+    max-width: 100%;
+}
+#datos .row .item-services4 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services4 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #21b14cd5;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*5*/
+#datos .row .item-services5{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services5:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services5:hover p{
+    bottom: 100px;
+}
+
+#datos .row .item-services5 img{
+    max-width: 100%;
+}
+#datos .row .item-services5 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services5 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #21b14cd5;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*6*/
+#datos .row .item-services6{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services6:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services6:hover p{
+    bottom: 100px;
+}
+
+#datos .row .item-services6 img{
+    max-width: 100%;
+}
+#datos .row .item-services6 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services6 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f89c39f1;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+/*7*/
+#datos .row .item-service7{
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#datos .row .item-services7:hover .cont-tittle{
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#datos .row .item-services7:hover p{
+    bottom: 100px;
+}
+
+#datos .row .item-services7 img{
+    max-width: 100%;
+}
+#datos .row .item-services7 p{
+    position: absolute;
+    bottom: -190px;
+    color: #ffffff;
+    transition: 2s;
+    margin-right: 2%;
+}
+
+#datos .row .item-services7 .cont-tittle{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f89c39f1;
+    align-items: center;
+    color: #ffffff;
+    transition: 2s;
+}
+
+/*ANIMACIONES*/
+#anima{
+    width: 100%;
+    position: relative;
+    
+}
+
+#anima .container{
+    padding: 160px;
+    margin-bottom: -50px;
+    margin-top: -130px;
+}
+
+#anima .container h2{
+    position: absolute;
+    margin-left: 435px;
+    font-weight: bold;
+    font-size: 35px;
+    top: 175px;
+    color: #ffffff;
+
+
+
+}
+#anima .container img{
+    
+    position: relative;
+    width: 380px;
+    margin-left: 345px;
+    bottom: -20px;
+    transition: .2s;
+
+}
+
+#anima .container img:hover{
+    transform: translateX(10px);
+
+}
+#anima .container .cont-texto img {
+    position: relative;
+    width: 500px;
+    left: -100px;
+    top: 40px;
+
+    width: 100%;
+    position: relative;
+    background-color: #f3f3f3;
+   
+}
+
+ #anima .container{
+  padding:   100px 50px 100px;
+
+}
+#anima .cont-titulo h2.video{
+    color: #0c84c1;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    top: 28px;
+    margin-left: 100px;
+
+}
+#anima .cont-titulo h1.y{
+    color: #f89b39;
+    position: relative;
+    font-weight: bold;
+    font-size: 58px;
+    top: -40px;
+    margin-left: 250px;
+}
+#anima .cont-titulo h2.animaciones{
+    color:#21B14B ;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    top: -105px;
+    margin-left: 310px;
+}
+#anima .cont-titulo h3.gratuitos{
+
+    color: #f89b39;
+    position: relative;
+    font-weight: bold;
+    font-size: 35px;
+    top: -90px;
+    margin-left: 220px;
+
+}
+#anima .cont-titulo img{
+    width: 200px;
+    position: absolute;
+    right: 160px;
+    transition: .4s;
+}
+#anima .cont-titulo img:hover{
+    transform: scale(1.2);
+}
+#anima .parra p{
+    position: relative;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    top: -10px;
+    
+}
+
+
+}
+element.style {
+    margin: 0px auto;
+    position: relative;
+    height: 758.812px;
+    width: 100%;
+    top: 50px;
+   
+}
+
+footer{
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    background-color:#21B14B;
+    color: white;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 13px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    
+}
+
+/*RESPONSIVE TABLET*/
+ 
+@media screen and (max-width:1024px) and (min-width:768px){
+ 
+    .container{
+        overflow: hidden;
+    }
+    .row{
+        margin-left: 23px;
+    }
+    #introdatos .container img{
+        left: -58%;
+    }
+    #introdatos .container h2{
+        left: -7%;
+    }
+/*7*/
+button.navbar-toggler img{
+    position: relative;
+    width: 50%;
+    
+
+}
+    #datos .row .item-services7:hover p{
+        bottom: 10px;
+        opacity: 100;
+    }
+    #datos .row .item-services7 p{
+        opacity: 0;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services7:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .cont-tittle img{
+        margin-top: -30px;
+    }
+    #datos .row .item-services7 .cont-tittle{
+        width:92% ;
+    }
+ 
+/*6*/
+    #datos .row .item-services6 .cont-tittle{
+        width: 92%;
+        padding: 12px;
+    }
+    #datos .row .item-services6:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services6 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services6:hover p{
+        bottom: 10px;
+        
+    }
+ 
+/*5*/
+    #datos .row .item-services5 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services5:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services5 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services5:hover p{
+        bottom: 10px;
+        
+    }
+ 
+ /*4*/
+    #datos .row .item-services4 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services4:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services4 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services4:hover p{
+        bottom: 10px;
+        
+    }
+ 
+/*3*/
+    #datos .row .item-services3 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services3:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services3 p{
+     font-size: 14px;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services3:hover p{
+        bottom: 10px;
+    
+    }
+    #datos .item-services3:hover .cont-tittle img{
+        margin-top: -30px;
+        opacity: 0;
+    }
+ 
+/*2*/
+    #datos .row .item-services2 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services2:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services2 p{
+     font-size: 14px;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services2:hover p{
+        bottom: 10px;
+    
+    }
+ 
+/*1*/
+#datos .row .item-services1 .cont-tittle{
+    width: 92%;
+}
+#datos .row .item-services1:hover .cont-tittle h3{
+    opacity: 0;
+}
+#datos .row .item-services1 p{
+ font-size: 12.4px;
+   margin-right: 22px;
+   margin-bottom: -2px;
+}
+#datos .row .item-services1:hover p{
+    bottom: 10px;
+}
+#datos .item-services1:hover .cont-tittle img{
+    margin-top: -30px;
+    opacity: 0;
+}
+ 
+    #anima .container img{
+        margin-left: 120px;
+    }
+    #anima .container h2{
+        left: -20%;
+        FONT-SIZE: 36px;
+    
+    }
+    #anima .parra p{
+        position: relative;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        text-align: center;
+        top: -10px;
+        font-size: 18px;
+    
+        
+    }
+}
+
+/*RESPONSIVE CELULAR*/
+@media screen and (max-width: 500px){
+    .container{
+        overflow: hidden;
+    }
+    header .container .row a{
+        position: relative;
+        width: 40px;
+    }
+    
+ 
+    #introdatos .container img{
+        left: -404px;
+    }
+    #introdatos .container h2{
+        left: -66%;
+    }
+    button.navbar-toggler img{
+        position: relative;
+        width: 43%;
+        top: -3px;
+        left: 3px;
+        
+    
+    }
+   
+    /*7*/
+    #datos .row .item-services7:hover p{
+        bottom: 10px;
+        opacity: 100;
+    }
+    #datos .row .item-services7 p{
+        opacity: 0;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services7:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .cont-tittle img{
+        margin-top: -30px;
+    }
+    #datos .row .item-services7 .cont-tittle{
+        width:92% ;
+    }
+ 
+/*6*/
+    #datos .row .item-services6 .cont-tittle{
+        width: 92%;
+        padding: 12px;
+    }
+    #datos .row .item-services6:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services6 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services6:hover p{
+        bottom: 20px;
+        
+    }
+ 
+/*5*/
+    #datos .row .item-services5 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services5 .cont-tittle h3{
+        top: 34px;
+    }
+    #datos .row .item-services5:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services5 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services5:hover p{
+        bottom: 30px;
+        
+    }
+ 
+ /*4*/
+    #datos .row .item-services4 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services4:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services4 p{
+        
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services4:hover p{
+        bottom: 10px;
+        
+    }
+ 
+/*3*/
+    #datos .row .item-services3 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services3:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services3 p{
+     font-size: 14px;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services3:hover p{
+        bottom: 10px;
+    
+    }
+    #datos .item-services3:hover .cont-tittle img{
+        margin-top: -30px;
+        opacity: 0;
+    }
+ 
+/*2*/
+    #datos .row .item-services2 .cont-tittle{
+        width: 92%;
+    }
+    #datos .row .item-services2:hover .cont-tittle h3{
+        opacity: 0;
+    }
+    #datos .row .item-services2 p{
+     font-size: 14px;
+       margin-right: 22px;
+       margin-bottom: -2px;
+    }
+    #datos .row .item-services2:hover p{
+        bottom: 10px;
+    
+    }
+ 
+/*1*/
+#datos .row .item-services1 .cont-tittle{
+    width: 92%;
+}
+#datos .row .item-services1:hover .cont-tittle h3{
+    opacity: 0;
+}
+#datos .row .item-services1 p{
+ font-size: 12.4px;
+   margin-right: 22px;
+   margin-bottom: -2px;
+}
+#datos .row .item-services1:hover p{
+    bottom: 10px;
+}
+#datos .item-services1:hover .cont-tittle img{
+    margin-top: -30px;
+    opacity: 0;
+}
+ 
+#anima .container img{
+    margin-left:-157px;
+}
+#anima .container h2{
+    left: -62%;
+}
+ 
+.row{
+    margin-left: 23px;
+}
+#anima .parra p{
+    position: relative;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    top: -10px;
+    font-size: 15px;
+
+    
+}
+
+#anima .container img{
+    margin-left: -17px;
+    width: 320px;
+
+}
+#anima .container h2{
+    left: -340px;
+  
+    top: 165px;
+
+
+}
+
+ 
+}
